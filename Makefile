@@ -13,7 +13,7 @@ FTXUI_INCLUDE := $(FTXUI_DIR)/include
 FTXUI_BUILD := $(FTXUI_DIR)/build
 
 # Flags de compilação
-CXXFLAGS := -std=c++20 -Wall -Wextra -Wpedantic -I$(FTXUI_INCLUDE)
+CXXFLAGS := -std=c++23 -Wall -Wextra -Wpedantic -I$(FTXUI_INCLUDE)
 
 # Bibliotecas FTXUI - A ORDEM É IMPORTANTE!
 LIBS := -L$(FTXUI_BUILD) -lftxui-component -lftxui-dom -lftxui-screen
