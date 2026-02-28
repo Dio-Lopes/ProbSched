@@ -1,12 +1,15 @@
-
+# VSCode
 .vscode/
 .vs/
-
 *.vsidx
+.cache/
 
+# Build files
 build/
 !lib/FTXUI/build/
+compile_commands.json
 
+
+# Stuff
 .idea/
-
 test.txt
